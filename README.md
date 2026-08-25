@@ -1,5 +1,13 @@
 Battle Arena Toshinden Recomp
 
+**Battle Arena Toshinden** and the associated characters, names, trademarks, and original game assets are the property of their respective copyright and trademark holders, including **Tamsoft Co., Ltd.** and **Takara Co., Ltd.**, as applicable to the original releases.
+
+This project is an independent, fan-made recompilation and is not affiliated with, endorsed by, or sponsored by Tamsoft, Takara, or any other rights holder.
+
+No original ROM files are included with this project. Users must provide their own legally obtained ROM.
+
+
+
 A fan-made recompilation project for the original Battle Arena Toshinden released for the Game Boy.
 
 This project recreates the game using modern development tools while requiring the user to provide their own copy of the original game ROM.
