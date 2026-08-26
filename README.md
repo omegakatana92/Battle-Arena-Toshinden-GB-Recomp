@@ -74,6 +74,128 @@ Test loading your own ROM
 
 Report whether the game works correctly
 
+# Contributing
+
+Contributions and improvements are welcome!
+
+## Getting Started
+
+1. Fork this repository on GitHub.
+2. Clone your fork to your computer.
+3. Follow the build instructions in `README.md`.
+4. Provide any required game ROM or other input files yourself.
+5. Build the project locally.
+6. Make your changes.
+7. Test your changes thoroughly.
+8. Commit and push your changes to your fork.
+9. Open a Pull Request against the main repository.
+
+## What You Can Contribute
+
+Examples of useful contributions include:
+
+* Bug fixes
+* Performance improvements
+* Controller improvements
+* Fullscreen improvements
+* Platform compatibility
+* Linux compatibility
+* Steam Deck compatibility
+* Build-system improvements
+* Documentation
+* Accessibility improvements
+* New configuration options
+* Other improvements that do not distribute copyrighted game material
+
+## ROM and Copyrighted Assets
+
+**Do not submit copyrighted game ROMs, proprietary Nintendo assets, or other copyrighted material that you do not have permission to redistribute.**
+
+Contributors must provide their own legally obtained ROM when required for building or testing.
+
+Do not include ROM files in Pull Requests.
+
+## Pull Requests
+
+Before submitting a Pull Request:
+
+* Make sure the project builds successfully.
+* Test your changes.
+* Explain what you changed.
+* Explain how you tested the changes.
+* Keep Pull Requests focused on a specific improvement or bug fix.
+
+Pull Requests may be reviewed before being merged into the main repository.
+
+## Issues
+
+If you find a bug, please open an Issue and provide:
+
+* Operating system
+* Hardware/platform
+* Project version or commit
+* Steps to reproduce the problem
+* Expected behavior
+* Actual behavior
+* Relevant error messages or logs
+
+Please do not upload or attach copyrighted ROM files to Issues.
+
+## Code of Conduct
+
+Please be respectful to other contributors. Constructive criticism, technical discussion, and collaboration are encouraged.
+
+Thank you for helping improve the project!
+
+## Building From Source
+
+This repository contains the source code required to build the recompilation.
+
+### Requirements
+
+* Git
+* CMake
+* A supported C/C++ compiler
+* Any additional dependencies listed below
+* Your own legally obtained ROM, if required by the build process
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/YOUR-USERNAME/PROJECT-NAME.git
+cd PROJECT-NAME
+```
+
+### Configure the Build
+
+```bash
+cmake -S . -B build
+```
+
+### Build
+
+```bash
+cmake --build build --config Release
+```
+
+The resulting executable will be placed in the project's build output directory.
+
+### ROM Requirement
+
+The original game ROM is **not included in this repository**.
+
+You must provide your own legally obtained ROM if the project requires it for building or runtime operation.
+
+ROM files should **not** be committed to GitHub.
+
+### Contributing
+
+If you want to improve the project, fork the repository, make your changes, test them, and submit a Pull Request.
+
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for contribution guidelines.
+
+
+
 Disclaimer
 
 Battle Arena Toshinden and its original assets are property of their respective copyright holders.
