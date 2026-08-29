@@ -1,0 +1,75 @@
+# Build directories
+build/
+cmake-build-*/
+_build/
+
+# Visual Studio / MSBuild
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
+# Compiled binaries
+*.exe
+*.dll
+*.pdb
+*.lib
+*.obj
+*.o
+*.a
+
+# Release/package output
+release/
+dist/
+bin/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Ninja
+.ninja_deps
+.ninja_log
+build.ninja
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor folders
+.vscode/
+.idea/
+
+# Archives
+*.zip
+*.7z
+*.rar
+
+# Original game ROMs
+*.gb
+*.gbc
+*.gba
+*.nes
+*.sfc
+*.smc
+*.rom
+
+# Other potentially copyrighted game images
+*.iso
+*.bin
+*.cue
+*.img
